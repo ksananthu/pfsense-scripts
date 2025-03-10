@@ -3,7 +3,7 @@
 ## 1. DHCP Lease Monitor Script
 
 ### Overview
-This script monitors DHCP leases using the Kea DHCP lease file(s), detects new leases, and sends notifications via Telegram. It ensures that no duplicate entries are processed and maintains a record of all known leases.
+Script `dhcp4_monitor.sh` monitors DHCP leases using the Kea DHCP lease file(s), detects new leases, and sends notifications via Telegram. It ensures that no duplicate entries are processed and maintains a record of all known leases.
 
 ### Features
 - Extracts IP, MAC address, and Hostname from DHCP lease files.
